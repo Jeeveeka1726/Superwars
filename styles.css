@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  .hero1{
+    border: 1px solid grey;
+    height: 100%;
+    width: 150px;
+    position: relative;
+    left: 150px;
+    top: 10px;
+    text-align: center;
+  }
+
+  .hero2{
+    border: 1px solid grey;
+    height: 100%;
+    width: 150px;
+    position: relative;
+    left: 5px;
+    top: 10px;
+    text-align: center;
+
+  }
+  .match1{
+    display: grid;
+    grid-template-columns:repeat(2 ,300px);
+    
+  }
+  .match2{
+    display: grid;
+    grid-template-columns: repeat(2,150px);
+  }
+  .match{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+  }
